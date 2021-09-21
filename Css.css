@@ -110,9 +110,7 @@ button{
 .no--button{
     background-color: white;
 }
-/*.box:focus {*/
-/*    box-shadow: 0 0 20px #80CBC4;*/
-/*}*/
+
 button:hover{
     background-color:var(--4th-color);
     color: var(--3th-color);
