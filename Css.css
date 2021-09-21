@@ -20,9 +20,6 @@ body{
     grid-template: 27vh 70.5vh/80vw;
     grid-template-areas: "header__main"
                           "pric";
-
-    /*background: linear-gradient(45deg, #F5F5F5, #FAFAFA);*/
-
 }
 h1{
     color: var(--primary-color);
@@ -50,8 +47,6 @@ p{
     border-radius: 8px;
     outline: none;
     -webkit-appearance: none;
-
-
 }
 input[type='renge']::-webkit-slider-thumb{
     width: 12px;
@@ -60,8 +55,6 @@ input[type='renge']::-webkit-slider-thumb{
     background: green;
     border-radius: 100%;
 }
-
-
 .pric{
     display: flex;
     flex-direction: row;
@@ -69,7 +62,6 @@ input[type='renge']::-webkit-slider-thumb{
     align-items: center;
 }
 .box{
-
     grid-area: pric;
     display: flex;
     flex-direction: column;
@@ -81,8 +73,6 @@ input[type='renge']::-webkit-slider-thumb{
     border-radius: 15px;
     margin: 0 1rem;
     padding: 0 1.5rem;
-
-
 }
 .box:hover{
     box-shadow: 0 0 15px var(--3th-color);
@@ -210,8 +200,6 @@ h3{
     border-radius: 30px;
     transform: translateX(0);
     transition: transform 300ms;
-
-
 }
 
 .switch-button-label-span {
