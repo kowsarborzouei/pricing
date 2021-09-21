@@ -20,7 +20,7 @@ body{
     grid-template: 27vh 70.5vh/80vw;
     grid-template-areas: "header__main"
                           "pric";
-    box-shadow: 0 0 1 var(--3th-color);
+
     /*background: linear-gradient(45deg, #F5F5F5, #FAFAFA);*/
 
 }
@@ -82,7 +82,13 @@ input[type='renge']::-webkit-slider-thumb{
     margin: 0 1rem;
     padding: 0 1.5rem;
 
+
 }
+.box:hover{
+    box-shadow: 0 0 15px var(--3th-color);
+}
+
+
 .box--choose{
     background-color: var(--4th-color);
 }
@@ -104,14 +110,16 @@ button{
 .no--button{
     background-color: white;
 }
-.box:focus{
-    box-shadow: 0 0 20px #80CBC4;
-}
+/*.box:focus {*/
+/*    box-shadow: 0 0 20px #80CBC4;*/
+/*}*/
 button:hover{
     background-color:var(--4th-color);
     color: var(--3th-color);
     cursor: pointer;
+
 }
+
 
 .div--ico--p{
     display: flex;
